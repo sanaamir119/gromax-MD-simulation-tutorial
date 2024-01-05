@@ -1,0 +1,20 @@
+######README#####
+
+#TO RUN GROMACS 
+USE FOLLOWING STEPS
+
+1)DOWALOAD GROMAX tool
+
+2)DOWNLOAD PDB FILE OF YOR PROTEIN
+
+3)RUN gromax_tutorial_MD_run.sh for MD simulation run
+
+command -
+sh gromax_tutorial_MD_run.sh yourpdbfile
+
+NOTE:- USE FORCE FIELD, IONS, ATOMS FOR RMSD CALCULATION OPTION MANUALLY THROWN WHILE RUNNING THE ABOVE COMMAND
+FOR MORE DETAIL, KINDLY FOLLOW THE TITORIAL OF GROMAX http://www.mdtutorials.com/gmx/lysozyme/index.html
+
+4)RUN gromax_tutorial_analysis.sh for analysis
+command -
+sh gromax_tutorial_MD_run.sh 
